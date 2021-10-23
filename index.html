@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Conversor</title>
+</head>
+<body>
+    <div id="box">
+
+    </div>
+    <main id="main">
+        <img src="./image/baseline_calculate_black_24dp.png" alt="">
+        
+        <form action="" id="form">
+
+        <div class="container">
+            <input type="text" placeholder="Cantidad a convertir" id="cantidad">
+        </div>
+
+        <div class="selector">
+            <select name="conversion1" id="c1">
+                <option value="">Seleccione tipo de moneda</option>
+                <option value="Dolar">Dolar</option>
+                <option value="PesoMex">Peso Mexicano</option>
+                <option value="PesoCol">Peso Colombiano</option>
+                <option value="Euro">Euro</option>
+                <option value="Libra">Libra Esterlina</option>
+            </select>
+
+            <select name="conversion2" id="c2">
+                <option value="">Seleccione tipo de moneda</option>
+                <option value="Dolar2">Dolar</option>
+                <option value="PesoMex2">Peso Mexicano</option>
+                <option value="PesoCol2">Peso Colombiano</option>
+                <option value="Euro2">Euro</option>
+                <option value="Libra2">Libra Esterlina</option>
+            </select>
+            
+        </div>
+            
+        <div class="selector2">
+            <button type="submit" onclick="location.reload()">Calcular</button> 
+            <input type="text" id="total" readonly>
+        </div>
+        </form>
+    </main>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
